@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/7813eb92b9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo2.png"alt=""class="logo">
+
+                <ul id="sidemenu">
+                    <li> <a href="#header">Home</a></li>
+                    <li> <a href="#about">About</a></li>
+                    <li> <a href="#services">Services</a></li>
+                    <li> <a href="#Portfolio">Portfolio</a></li>
+                    <li> <a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars"k onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p> Welcome,</p>
+                <h1> Hi, I'm <span>Ashish</span>  <br> From Bihar</h1>
+                <p> Web developer/<br>Coder</p>
+
+            </div>
+        </div>
+        <div class="line"></div> <!-- Added line -->
+    </div>
+   <!-- ------------------about--------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user23.jpg">
+
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title"> About me</h1>
+                    <p>
+
+                        I'm Ashish Verma from Bihar, currently residing in Ranchi. Regarding my
+                         educational background, I completed my 10th from Upgraded High School, Jamua, Giridih, and my 12th 
+                         from J.P.K.I College Of Competence, Bhandaro Giridih. Presently, I'm pursuing my graduation at
+                          Dr. Shyama Prasad Mukherjee University, with my session spanning from 2021 to 2024. My strengths include a positive attitude and adaptability to various work environments. Outside of academics, I enjoy playing cricket and have a profound love for animals. </p>
+                  
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')"> skills</p>
+                        <p class="tab-links"onclick="opentab('Experience')"> Internship</p>
+                        <p class="tab-links"onclick="opentab('Education')"> Education</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>languages</span><br>C ,C++ ,Java </li>
+                            <li><span>Web Technologies</span><br>HTML, CSS,Javascript</li> 
+                            <li><span>Tools Used</span><br>Turbo C++ ,VS Code</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>JAN 2023-FEB 2023</span><br>Internship as a Python programming with Data visualization in <a> @briztech infosystems Ranchi </a></li>
+                            <li><span> SEP 2023-OCT 2023</span><br>Internship as a Web Developer <a>@lifetech software pvt ltd ranchi</a></li> 
+                            <li><span></span><br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2021 - 2024 </span><br>B.Sc IT from Dr. Shyama Prasad Mukherjee University </li>
+                            <li><span>2019 - 2021 </span><br> 12 th from J.P.K.I College Of Competence Bhandaro Giridih</li> 
+                            <li><span>2018 - 2019</span><br>10th from Upgraded High School Dumma Jamua</li>
+                        </ul>
+                    </div>
+                </div>
+                
+
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------------services------------>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title"> My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Developer</h2>
+                    <p>Hello, I'm  Ashish, a passionate front-end web developer dedicated to crafting user-centric and visually appealing digital experiences. With a keen eye for detail and a love for clean, efficient code, I bring creativity and technical skills to every project I know HTML CSS and Javascript.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                      <i class="fa-solid fa-code"></i>      
+                   <h2>Coding</h2>
+                    <p>I am Ashish .Ever since I wrote my first "Hello, World!" program, I've been on an exciting adventure exploring the realms of coding. I started with [mention any early programming languages], and my curiosity led me to dive deeper into [C,C++, Java e.g., algorithms, data structures].</p>
+                    <a href="#">Learn more</a>
+
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Welcome to my profile , your go-to destination for app development expertise. We are passionate about creating intuitive and innovative mobile applications that make a difference.</p>
+                    <a href="#">Learn more</a>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-----------------------------portfolio-->
+    <div id="Portfolio">
+        <div class="container">
+            <h1 class="sub-title"> My Project</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work1.png">
+                    <div class="layer">
+
+                        <h3>Developed dynamic Notes collection website</h3>
+                        <p> Developed dynamic Notes collection website with HTML, CSS, JavaScript, PHP, MySQL; added 
+                            search, responsive UI, download, messaging features.
+                             - Link to the project<h4><a href="https://mrnotescollection.000webhostapp.com/index.php"> 
+                                (Mr notes collection(000webhostapp.com ))</a></h4></p>
+                            <a href="https://mrnotescollection.000webhostapp.com/index.php"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>CRUD Opertation</h3>
+                        <p> CRUD (Create, Read, Update, Delete) operations are fundamental functionalities in web development for managing data within an application. In a project utilizing HTML, CSS, JavaScript, and PHP, </p>
+                            <a href="available  soon"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p> Lorem ipsum dolor sit a ad fugit possimus ipsum mollitia! Assumenda voluptates saepe dolore doloremque officia. Suscipit illo quasi cumque eligendi natus! Soluta, vitae eligendi, voluptatum minus maiores vel itaque sapiente eius et repudiandae neque facilis hic provident 
+                            reiciendis fuga iste porro possimus!</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See  more
+
+            </a>
+        </div>
+    </div>
+    <!-----------contact    -------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> ashish7739206146@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>7484820416</p>
+                    <div class="social-icons">
+                        <a href="https://m.facebook.com/"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://instagram.com/mr_ashishverma104?igshid=MzMyNGUyNmU2YQ=="><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/ashish-verma-3a6662280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://wa.me/qr/ZMNFD5MABDJ6G1"><i class="fab fa-whatsapp"></i></a>
+
+
+                    </div>
+                    <a href="images/resume6xx.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+<form name="submit-to-google-sheet">
+<input type="text"name="name" placeholder="your name"required>
+<input type="email"name="email" placeholder="your email"required>
+<textarea name="message"row="6" placeholder="Your message"></textarea>
+<button type="submit" class="btn btn2">submit</button>
+</form>
+<span id="msg"></span>
+
+                </div>
+            </div>
+        </div>
+<div class="copyright">
+    <p>@ashish.v.Made with<i class="fa-solid fa-heart"></i> by ...........</p>
+</div>
+
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add('active-link');
+    document.getElementById(tabname).classList.add("active-tab");
+}
+    </script>
+    <script>
+
+        var sidemeu =document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeu.style.right ="0";
+        }
+        function closemenu(){
+            sidemeu.style.right ="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyGkQPqnODdQ1Bki56TCf7cdV6OH_MmX_Vj2bLKykomPWpGF_WFS2OGeB3EMnFZPdiJQg/exec'
+        const form = document.forms['submit-to-google-sheet']
+      const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent successfully!!!"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
