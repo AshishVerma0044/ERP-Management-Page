@@ -61,13 +61,30 @@ nav ul li a:hover::after{
 }
 
 .header-text{
-    margin-top: 20%;
+    margin-top: 15%;
     font-size: 30px;
 
 }
 .header-text h1 span{
     color: #ff004f;
+    
 
+}
+.header-text p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #0fa504;
+    font-weight: 800;
+    font-size: 35px;
+    margin-bottom: 30px;
+
+}
+.header-text  h6 {
+    bottom: 50px;
+    display: none;
+    /* For example, change the color to black */
+}
+.header-bottom{
+   display: none;
 }
 .line {
     position: absolute;
@@ -358,8 +375,24 @@ nav .fas{
 
     }
     .header-text h1{
+        margin-top: 50px;
         font-size: 50px;
     }
+    .header-text p{
+        margin-top: 0px;
+        color: #acefa0;
+        font-weight: 800;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    
+    }
+    .header-text h6 {
+        display: block; /* Display the element for small screens */
+        margin-top: 50px;
+       font-size: 25px;
+        color: #ffffff; /* Adjust the color or any other styling as needed */
+    position: absolute;
+    }
+    
     nav .fas{
         display: block;
         font-size: 25px;
@@ -421,4 +454,9 @@ nav .fas{
     color: #61b752;
     margin-top: -40px;
     display: block;
+}
+@media only screen and (max-width: 397px) {
+    .header-text h6 {
+        display: none; /* Hide the element when screen width is below 397px */
+    }
 }
